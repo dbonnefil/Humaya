@@ -1,0 +1,430 @@
+/* Estilos de presentacion */
+#fondoDePortada{
+    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    
+}
+
+.contenedor-primera-seccion h1{
+    color: #FFFAF4;
+}
+
+.contenedor-primera-seccion{
+    width: 75%;
+    padding: 4rem 2rem;
+}
+
+.FranjaProd{
+    font-weight: bold;
+    font-size: 2em;
+    color: #c0945d;
+    height: 4rem;
+    
+}
+
+.franja{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.franjaPeq{
+    height: 0rem;
+}
+
+.beige{
+    color: #c0945d;
+}
+.foto{
+    width: 50%;
+}
+.letras{
+    width: 50%;
+}
+.imgprod{
+   
+    width:100%;
+    height:100%;
+  }
+.letras{
+    background-color: black;
+    color: #FFFAF4;
+    padding: 2rem;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.btninfo{
+    text-align: center;
+    
+}
+.btni{
+    padding: 6px 18px;
+    text-decoration: none !important;
+    display: inline-block;
+
+}
+.letrasP{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+.letrasP2{
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#fondoAlfajor{
+  /*  background-image: url(./IMAGENES/Productos/Producto4b.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    background-position: center center;*/
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    background-color: #D5AC8C !important;
+
+}    
+.contenedorAlfajor{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:#63421E !important;
+    width: 50%;
+   
+}
+.imgAlfajor{
+    
+    float: right !important;
+}
+.alfa1{
+    color: #FFFAF4;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 4rem;
+}
+.alfa2{
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+    padding-right: 4rem;
+}
+.marron{
+    color:#63421E;
+    
+}
+.franjaCont{
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    height: 4rem;
+    
+}
+
+.imgcontacto{
+   
+    width:40%;
+    height:100%;
+    overflow: hidden;
+  }
+.imgcont{
+   
+    object-fit: contain !important;
+    object-position: center center;
+}
+
+.formulario{
+    width: 60%;
+    background-color: #FFFAF4;
+    color: #63421E;
+    padding: 4rem 8rem;
+    
+}
+.relleno{
+    background-color: #63421E;
+    
+}
+.btncont{
+    font-weight: bold;
+    border-width: medium;
+    color: #63421E;
+    border-color: #63421E;
+  
+}
+
+/* media queries 360mobile 768table 1280desktop */
+@media screen and (min-width:380px) and (max-width:480px) {
+    .FranjaProd{
+        font-size: 1em;
+        height: 2rem;
+    }
+    .franjaPeq{
+        height: 1rem;
+    }
+    .columna{
+        flex-direction: column !important;
+    }
+    .columna2{
+        flex-direction: column-reverse !important;
+    }
+    .foto{
+        width: 100%;
+        
+    }
+    .letras{
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 0.5rem !important;
+    }
+    .letrasP{
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        padding-left: 3.5rem;
+        padding-right: 3rem;
+       
+    }
+    
+    .letrasP2{
+        padding-left: 3.5rem;
+        padding-right: 3rem;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .contenedorAlfajor{
+        flex-direction: column !important;
+        top: 10px;
+        left: 10px;
+        position: initial;
+        width: 100%;
+        background-color: #D5AC8C;
+       
+    }
+   
+    .alfa1{
+        
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        padding-left: 5rem;
+        padding-right: 4rem;
+    }
+    .alfa2{
+        padding-left: 5rem;
+        padding-bottom: 2rem;
+        padding-right: 4rem;
+    }
+    .bordeBtn{
+        margin-bottom: 1rem;
+    }
+    .imgcont{
+        display: none;
+    }
+    .formulario{
+        width: 100%;
+    }
+   
+}
+
+@media screen and (min-width:481px) and (max-width:580px) {
+    .contenedor-primera-seccion
+    {
+        width: 50%;
+        padding: 4rem 2rem;
+    }
+    .FranjaProd{
+        font-size: 1.5em;
+    }
+    .franjaPeq{
+        height: 1rem;
+    }
+    .columna{
+        flex-direction: column !important;
+    }
+    .columna2{
+        flex-direction: column-reverse !important;
+    }
+    .foto{
+        width: 100%;
+        
+    }
+    .letras{
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 0.5rem !important;
+    }
+    .letrasP{
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        padding-left: 3.5rem;
+        padding-right: 3rem;
+       
+    }
+    
+    .letrasP2{
+        padding-left: 3.5rem;
+        padding-right: 3rem;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+    }
+     
+    .contenedorAlfajor{
+        flex-direction: column !important;
+        top: 10px;
+        left: 10px;
+        position: initial;
+        width: 100%;
+        background-color: #D5AC8C;
+       
+    }
+    .imgAlfajor{
+        z-index: 1 !important;
+        background-image: url(./IMAGENES/Productos/Producto4.png);
+        
+    }
+   
+    .alfa1{
+        font-size: 0.9rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 5rem;
+        padding-right: 4rem;
+    }
+    .alfa2{
+        font-size: 0.9rem;
+        padding-left: 5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 4rem;
+    } 
+    .bordeBtn{
+        margin-bottom: 1rem;
+    }
+    .imgcont{
+        display: none;
+    }
+    .formulario{
+        width: 100%;
+    }
+}
+@media screen and (min-width:581px) and (max-width:850px) {
+    .contenedor-primera-seccion
+    {
+        width: 40%;
+        padding: 4rem 2rem;
+    }   
+    .FranjaProd{
+        font-size: 1.5em;
+    }
+    .alfa1{
+        font-size: 0.9rem;
+        padding-top: 1rem;
+        padding-bottom: 0.75rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .alfa2{
+        font-size: 0.9rem;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+        padding-right: 4rem;
+    } 
+    .formulario{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+@media screen and (min-width:851px) and (max-width:1000px) {
+    .contenedor-primera-seccion
+    {
+        width: 30%;
+        padding: 4rem 2rem;
+    }  
+    .formulario{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }     
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px) {
+   
+    
+    .contenedor-primera-seccion
+    {
+        width: 30%;
+        padding: 4rem 2rem;
+        background-color: rgba(0,0,0, 0.6);
+        margin: 0 2rem;
+        margin-top: 7rem;
+    }
+    #fondoDePortada
+    {
+        /*display: flex;
+        justify-content: flex-end;*/
+        padding: 2rem;
+       
+    }
+    .contenedor-primera-seccion p
+    {
+        color: #FFFAF4;
+    }
+
+    .contenedor-primera-seccion button
+    {
+        display: block;
+        margin-top: 3rem !important;
+        margin: auto;
+        
+    }
+    .letras{
+        padding-left: 7rem;
+        padding-right: 6rem;
+    }
+   
+    .linea1{
+        padding-top: 2rem;
+    }
+}
+@media screen and (min-width:1201px) {
+    #fondoDePortada{
+        height: 100vh;
+     max-width: 100%;
+    }
+    
+    .contenedor-primera-seccion
+    {
+        width: 30%;
+        padding: 4rem 2rem;
+        background-color: rgba(0,0,0, 0.6);
+        margin: 0 2rem;
+        margin-top: 7rem;
+    }
+    #fondoDePortada
+    {
+       
+        padding: 2rem;
+       
+    }
+    .contenedor-primera-seccion p
+    {
+        color: #FFFAF4;
+    }
+
+    .contenedor-primera-seccion button
+    {
+        display: block;
+        margin-top: 3rem !important;
+        margin: auto;
+        
+    }
+    .letras{
+        padding-left: 7rem;
+        padding-right: 6rem;
+    }
+}
